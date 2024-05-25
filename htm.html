@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car animation</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        background-color: grey;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sky {
+        width: 300%;
+        height: 60vh;
+        position: relative;
+        background-image: url('sky.png');
+        background-size: contain;
+        background-repeat: repeat-x;
+        overflow: hidden;
+        animation: 30s move linear infinite;
+    }
+
+    .city {
+        width: 300%;
+        height: 30vh;
+        background-image: url('city.webp');
+        background-size: contain;
+        background-repeat: repeat-x;
+        position: absolute;
+        bottom: 0;
+        border: none;
+        animation: 8s move linear infinite;
+    }
+
+    .road {
+        height: 40vh;
+        width: 100%;
+        background-color: #272D2D;
+        position: relative;
+    }
+
+    .strip {
+        background-color: rgb(252, 252, 252);
+        height: 2vh;
+        width: 100%;
+    }
+
+    .str2 {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .mid {
+        height: 3vh;
+        width: 100%;
+        position: absolute;
+        top: 45%;
+        overflow: hidden;
+    }
+
+    .stripee {
+        background: linear-gradient(90deg, white, #272D2D, #272D2D, white, #272D2D,#272D2D, white, #272D2D, #272D2D, white, #272D2D, #272D2D);
+        height: 3vh;
+        width: 300%;
+        animation:  8s move ease infinite;
+    }
+    .car{
+        position: absolute;
+        bottom: 0;
+        transform: scaleX(-100%);
+        left: 10%;
+    }
+    .tyre{
+        position: absolute;
+        bottom: 250px;
+        
+    }
+    #tyre-1{
+        position: absolute;
+        left: 225px;
+        animation: 1s rotate linear infinite;
+    }
+    #tyre-2{
+        position: absolute;
+        left: 465px;
+        animation: 1s rotate linear infinite;
+    }
+
+    @keyframes rotate{
+        0%{
+            transform: rotate(0);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes move{
+        0%{
+            transform: translate(0);
+        }
+        100%{
+            transform: translate(-60%);
+        }
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="sky">
+            <div class="city"></div>
+        </div>
+        <div class="road">
+            <div class="strip"></div>
+            <div class="mid">
+                <div class="stripee"></div>
+            </div>
+            <div class="strip str2"></div>
+        </div>
+        <div class="object">
+            <div class="car"><img src="car.png"></div>
+            <div class="tyre">
+                <img src="alloy.png" width="120px" id="tyre-2">
+                <img src="alloy.png" width="120px" id="tyre-1">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

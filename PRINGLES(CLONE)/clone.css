@@ -1,0 +1,292 @@
+  body {
+
+    margin: 0px;
+    padding: 0 0 0 0;
+  }
+
+  .box a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .products a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #btn-buy a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .triangle-1 {
+    width: 0;
+    height: 0;
+    border-bottom: 125px solid #e30424;
+    border-right: 520px solid transparent;
+    position: absolute;
+    top: 460px;
+    left: 0;
+
+  }
+
+  .triangle-2 {
+    width: 0;
+    height: 0;
+    border-bottom: 125px solid #e30424;
+    border-left: 520px solid transparent;
+    position: absolute;
+    top: 460px;
+    right: 0;
+    z-index:0;
+  }
+
+  .triangle3 {
+
+    width: 0;
+
+    height: 0;
+    border-bottom: 125px solid white;
+    border-left: 500px solid transparent;
+    position: absolute;
+    top: 1020px;
+    right: 0;
+  }
+
+  .triangle-4 {
+    width: 0;
+    height: 0;
+    border-bottom: 125px solid white;
+    border-right: 520px solid transparent;
+    position: absolute;
+    top: 1020px;
+    left: 0;
+  }
+
+  .triangle-5 {
+    width: 0;
+    height: 0;
+    border-top: 41px solid white;
+    border-right: 173px solid transparent;
+    position: absolute;
+    left: 159px;
+    top: -1px
+  }
+
+  .triangle-6 {
+    width: 0;
+    height: 0;
+    border-top: 41px solid white;
+    border-left: 167px solid transparent;
+    position: absolute;
+    left: 324px;
+    top: -1px
+  }
+
+  .triangle-7 {
+
+    width: 0;
+
+    height: 0;
+    border-top: 41px solid white;
+    border-right: 173px solid transparent;
+    position: absolute;
+    left: 490px;
+    top: -1px
+  }
+
+  .triangle-8 {
+
+    width: 0;
+
+    height: 0;
+    border-top: 41px solid white;
+    border-left: 167px solid transparent;
+    position: absolute;
+    left: 655px;
+    top: -1px
+  }
+
+  .triangle-footer-1 {
+    width: 0;
+    height: 0;
+    border-top: 91px solid white;
+    border-right: 520px solid transparent;
+    position: absolute;
+    top: -1px;
+    left: 48%;
+  }
+
+  .triangle-footer-2 {
+    width: 0;
+    height: 0;
+    border-top: 91px solid white;
+    border-left: 501px solid transparent;
+    position: absolute;
+    top: -1px;
+    right:519px;
+  }
+
+  .navbar {
+    background-color: #e30424;
+    width: 100%;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: fixed;
+    letter-spacing: 1px;
+    z-index:1;
+  }
+
+  .box {
+    height: 550px;
+    width: 100%;
+    background-image: url('ban.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 5px solid red;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+  }
+
+  .box h1,
+  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    letter-spacing: 1px;
+  }
+
+  .btn-1 {
+    background-color: #FFC94F;
+    border: none;
+    font-family: "Luckiest guy", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 40px 6px 40px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .inner-box {
+    margin-top: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .video {
+    overflow: hidden;
+    width: 97%;
+    background-color: #CD2525;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    z-index:-1;
+    /* position:relative;*/
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);*/
+  }
+
+  .products h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Luckiest Guy", sans-serif;
+    color: #D22C2C;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+
+  .products th {
+    font-family: "luckiest guy", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #D22C2C;
+  }
+
+  .products td {
+    text-align: center;
+  }
+
+  .products button {
+    background-color: #D22C2C;
+    border: none;
+    color: white;
+    font-family: "luckiest guy", sans-serif;
+    padding: 9px 10px 6px 10px;
+    font-weight: 190;
+    letter-spacing: 1px;
+    font-size: 19px;
+  }
+
+  .two-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+  #btn-buy {
+    padding: 13px 30px 6px 30px;
+    position: absolute;
+    left: 550px;
+    top: 245px;
+    background-color: #D22C2C;
+    font-family: "luckiest guy", sans-serif;
+    font-size: 19px;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "hammersmith one", sans-serif;
+    font-size: normal;
+    margin-right: 120px;
+  }
+
+  .footer {
+    background-color: #e30424;
+    width: 100%;
+    color: white;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    
+  }
+
+  .footer i {
+    margin-right: 30px;
+  }
+
+  ol {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 30px;
+    text-decoration: underline;
+  }
+.fa-moon-o{
+  position: absolute;
+  right:80px;
+  padding:25px;
+}
+.fa-sun-o{
+  position: absolute;
+  right:20px;
+  padding:25px;
+}
